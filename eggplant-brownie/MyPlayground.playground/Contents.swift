@@ -1,8 +1,7 @@
 import UIKit
 
-let name = "Guilherme"
-let project = "Eggplant Brownie"
-let fullName = "\(name) Silveira"
+let name = "eggplant"
+let calories: Double = 50.5
+let happiness: Int = 5
 
-print(name)
-print(project)
+let eggplantIsAVegetable: Bool = false
