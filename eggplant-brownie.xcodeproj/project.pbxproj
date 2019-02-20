@@ -47,6 +47,7 @@
 		071B17E722187322004A62B1 /* eggplant-brownieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eggplant-brownieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		071B17EB22187322004A62B1 /* eggplant_brownieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eggplant_brownieUITests.swift; sourceTree = "<group>"; };
 		071B17ED22187322004A62B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07A08117221CF86200A2B72E /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 				071B17D222187322004A62B1 /* Assets.xcassets */,
 				071B17D422187322004A62B1 /* LaunchScreen.storyboard */,
 				071B17D722187322004A62B1 /* Info.plist */,
+				07A08117221CF86200A2B72E /* MyPlayground.playground */,
 			);
 			path = "eggplant-brownie";
 			sourceTree = "<group>";
