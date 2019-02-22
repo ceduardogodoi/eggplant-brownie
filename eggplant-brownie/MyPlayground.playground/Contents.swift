@@ -14,3 +14,11 @@ func allCalories(calories: Array<Double>) -> Double {
 }
 
 allCalories(calories: [10.5, 100, 300, 500, 300, 300])
+
+var values = [1, 2]
+var total = 0
+for v in values {
+    total += v
+}
+
+print(total / values.count)
