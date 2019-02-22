@@ -1,22 +1,16 @@
 import UIKit
 
-let name = "eggplant"
-let calories: Double = 50.5
-let happiness: Int = 5
+let totalCalories = [50.5, 100, 300, 500]
+print(totalCalories)
 
-let eggplantIsAVegetable: Bool = false
-
-func helloCalories() {
-    let product = "brownie"
-    print("Hello Calories \(product)")
+for i in 0...3 {
+    print("calories are \(totalCalories[i])")
 }
 
-helloCalories()
-helloCalories()
-
-func add(name: String, calories: Double) {
-    print("adding \(name) with \(calories)")
+for i in 0...(totalCalories.count - 1) {
+    print(totalCalories[i])
 }
 
-add(name: "Brownie", calories: 30.5)
-add(name: "Eggplant", calories: 50.5)
+for calories in totalCalories {
+    print(calories)
+}
