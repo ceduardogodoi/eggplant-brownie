@@ -1,16 +1,16 @@
 import UIKit
 
-let totalCalories = [50.5, 100, 300, 500]
-print(totalCalories)
+// let calories = [50.5, 100]
+// let empty: Array<Double> = []
 
-for i in 0...3 {
-    print("calories are \(totalCalories[i])")
+func allCalories(calories: Array<Double>) -> Double {
+    var total = 0.0
+
+    for c in calories {
+        total += c
+    }
+
+    return total
 }
 
-for i in 0...(totalCalories.count - 1) {
-    print(totalCalories[i])
-}
-
-for calories in totalCalories {
-    print(calories)
-}
+allCalories(calories: [10.5, 100, 300, 500, 300, 300])
