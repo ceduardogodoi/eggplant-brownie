@@ -1,24 +1,19 @@
 import UIKit
 
-// let calories = [50.5, 100]
-// let empty: Array<Double> = []
-
-func allCalories(calories: Array<Double>) -> Double {
-    var total = 0.0
-
-    for c in calories {
-        total += c
-    }
-
-    return total
+class Meal {
+    var happiness: Int?
+    var name: String?
 }
 
-allCalories(calories: [10.5, 100, 300, 500, 300, 300])
-
-var values = [1, 2]
-var total = 0
-for v in values {
-    total += v
-}
-
-print(total / values.count)
+//var brownie = Meal()
+//brownie.name = "eggplant brownie"
+//
+//print(brownie.happiness)
+//print(brownie.name)
+//
+//if let name = brownie.name {
+//    print(name.uppercased())
+//}
+//
+//var name: String!
+//print(name.uppercased())
