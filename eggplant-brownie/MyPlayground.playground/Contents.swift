@@ -3,11 +3,11 @@ import UIKit
 class Meal {
     var happiness: Int?
     var name: String?
-    var items: [Item] = [] // Array<Item> = []
+    var items: [Item] = [] // Array<Item>() = []
 
     init(name: String, happiness: Int) {
         self.name = name
-        self.happiness = happiness
+        self.happiness = happiness)
     }
 
     func allCalories() -> Double {
