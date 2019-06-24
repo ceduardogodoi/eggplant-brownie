@@ -7,7 +7,7 @@ class Meal {
 
     init(name: String, happiness: Int) {
         self.name = name
-        self.happiness = happiness)
+        self.happiness = happiness
     }
 
     func allCalories() -> Double {
